@@ -1,0 +1,12 @@
+{
+  "name": "iptv-render",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node extractor.js & node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.53.0"
+  }
+}
