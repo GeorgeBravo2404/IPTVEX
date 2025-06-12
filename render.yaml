@@ -1,9 +1,1 @@
-services:
-  - type: web
-    name: iptv-render
-    env: node
-    buildCommand: |
-      npm install
-      npx playwright install chromium
-    startCommand: node extractor.js & node server.js
-    plan: free
+
